@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="0.963">
+  <testsuite name="PokeAPI — Happy paths" errors="0" failures="0" skipped="0" timestamp="2025-09-14T10:09:40" time="0.847" tests="7">
+    <testcase classname="PokeAPI — Happy paths GET /pokemon/ditto returns a valid Pokémon object" name="PokeAPI — Happy paths GET /pokemon/ditto returns a valid Pokémon object" time="0.134">
+    </testcase>
+    <testcase classname="PokeAPI — Happy paths GET /pokemon?limit=20&amp;offset=0 paginates correctly" name="PokeAPI — Happy paths GET /pokemon?limit=20&amp;offset=0 paginates correctly" time="0.033">
+    </testcase>
+    <testcase classname="PokeAPI — Happy paths GET /type/fire has valid damage_relations" name="PokeAPI — Happy paths GET /type/fire has valid damage_relations" time="0.048">
+    </testcase>
+    <testcase classname="PokeAPI — Happy paths Smoke: known Pokémon IDs { path: &apos;/pokemon/1&apos;, name: &apos;bulbasaur&apos; } returns %s" name="PokeAPI — Happy paths Smoke: known Pokémon IDs { path: &apos;/pokemon/1&apos;, name: &apos;bulbasaur&apos; } returns %s" time="0.033">
+    </testcase>
+    <testcase classname="PokeAPI — Happy paths Smoke: known Pokémon IDs { path: &apos;/pokemon/25&apos;, name: &apos;pikachu&apos; } returns %s" name="PokeAPI — Happy paths Smoke: known Pokémon IDs { path: &apos;/pokemon/25&apos;, name: &apos;pikachu&apos; } returns %s" time="0.038">
+    </testcase>
+    <testcase classname="PokeAPI — Happy paths Smoke: known Pokémon IDs { path: &apos;/pokemon/150&apos;, name: &apos;mewtwo&apos; } returns %s" name="PokeAPI — Happy paths Smoke: known Pokémon IDs { path: &apos;/pokemon/150&apos;, name: &apos;mewtwo&apos; } returns %s" time="0.039">
+    </testcase>
+    <testcase classname="PokeAPI — Happy paths Common response headers exist (cache, date)" name="PokeAPI — Happy paths Common response headers exist (cache, date)" time="0.031">
+    </testcase>
+  </testsuite>
+</testsuites>
